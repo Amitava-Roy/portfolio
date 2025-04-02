@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./ui/Card";
 import image from "../assets/E-Shop.png";
 import image2 from "../assets/flashcard.png";
-import ReusableCodeSection from "./reusableCodeSection";
+import ReusableCodeSection from "./ReusableCodeSection";
 import image1 from "../assets/hrms.png";
 import image3 from "../assets/khambee.png";
 import image4 from "../assets/tpp.png";
