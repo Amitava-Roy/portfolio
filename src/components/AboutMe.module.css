@@ -1,0 +1,9 @@
+.animate {
+  animation: spininfinite 4s linear infinite;
+}
+
+@keyframes spininfinite {
+  to {
+    transform: rotate(360deg);
+  }
+}
