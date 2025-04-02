@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SvgMobileicon from "./ui/svgMobileicon";
+import SvgMobileicon from "./ui/SvgMobileicon";
 import CrossIcon from "./ui/CrossIcon";
 import MobileNavbar from "./ui/MobileNavbar";
 
@@ -10,20 +10,12 @@ function NavBar({ isSticky, refs }) {
   return (
     <div
       className={`${
-        isSticky
-          ? "fixed top-0 left-0 right-0 bg-slate-50  "
-          : ""
+        isSticky ? "fixed top-0 left-0 right-0 bg-slate-50  " : ""
       }z-[100] flex justify-between pr-8 pl-10 py-6 md:pr-10 md:pl-12 md:py-8 text-xl tracking-wider shadow-md shadow-slate-400/100`}
     >
-      <h3 className="md:justify-self-start font-bold ">
-        Amitava.dev
-      </h3>
+      <h3 className="md:justify-self-start font-bold ">Amitava.dev</h3>
       {/* {!isOpen && ( */}
-      <MobileNavbar
-        refs={refs}
-        isOpen={isOpen}
-        setIsOpen={setIsOpen}
-      />
+      <MobileNavbar refs={refs} isOpen={isOpen} setIsOpen={setIsOpen} />
       {/* )} */}
       <ul className=" md:flex md:gap-8 cursor-pointer transition-all font-semibold text-lg  ">
         <li className="md:hidden">
