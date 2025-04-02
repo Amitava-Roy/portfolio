@@ -53,9 +53,9 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 
 Feel free to connect with me:
 
-- **LinkedIn**: [linkedin.com/in/amitava-roy](https://linkedin.com/in/amitava-roy)
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
-- **Email**: your.email@example.com
+- **LinkedIn**: [linkedin.com/in/amitava-roy](https://www.linkedin.com/in/amitava-roy-19026915b/)
+- **GitHub**: [github.com/yourusername](https://github.com/Amitava-Roy)
+- **Email**: ramitava007@gmail.com
 
 ---
 
