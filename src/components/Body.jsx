@@ -10,9 +10,7 @@ function Body() {
         <h1 className=" text-[2rem]  leading-[3rem] md:text-[3.5rem] tracking-wide md:leading-[4rem] font-extrabold mb-8">
           <span>Full-Stack</span>
           <br />
-          <span className="text-blue-600/100">
-            Developer
-          </span>
+          <span className="text-blue-600/100">Developer</span>
           <span>
             <img
               className="ml-3 inline-block h-8 w-8"
@@ -22,8 +20,8 @@ function Body() {
           </span>
         </h1>
         <p className="p-4 md:p-0 tracking-wider md:tracking-wide text-xl font-sans font-semibold mb-4 md:mb-8 ">
-          Hi, I'm Amitava Roy .A passionate Full-Stack
-          Developer based in Haldia, West Bengal.
+          Hi, I'm Amitava Roy .A passionate Full-Stack Developer based in
+          Haldia, West Bengal.
         </p>
         <div className=" justify-center md:justify-normal flex gap-4 mb-6 md:mb-2">
           <a
@@ -71,7 +69,8 @@ function Body() {
           <a
             download
             target="_blank"
-            href="https://drive.google.com/file/d/1x9_lsOqDa_EOAm4YK7Mq4rjegXhe_xQT/view?usp=drive_link"
+            rel="noreferrer"
+            href="https://drive.google.com/file/d/16o3fVjKwIXtP-qwf6aEtvS-xgGYFsCyG/view?usp=sharing"
             type="button"
             className="text-white cursor-pointer bg-blue-600/100 hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2"
           >
@@ -105,9 +104,7 @@ function Body() {
       {/* </div> */}
       <div className="md:col-span-2 font-semibold text-lg md:pl-8">
         <div className="flex-col md:flex-row flex gap-4 mb-8 text-center">
-          <h4 className="inline self-center">
-            Front-End |
-          </h4>
+          <h4 className="inline self-center">Front-End |</h4>
           <div className="flex justify-center gap-3 md:gap-8">
             <img
               className=" hover:-translate-y-2 transition-transform"
